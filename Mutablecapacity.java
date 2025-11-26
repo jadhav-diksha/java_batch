@@ -24,9 +24,9 @@ class Mutablecapacity //string bufferdemo
 
         System.out.println("character at specific index of "+sb1.charAt(5));
 
-        System.out.println("add character at specific index of "+sb1.setChar(5,'M'));
+        // System.out.println("add character at specific index of "+sb1.setChar(5,'M'));
 
-         System.out.println("delete char at "+sb1.deletecharAt(5));
+        //  System.out.println("delete char at "+sb1.deletecharAt(5));
 
      }
 }

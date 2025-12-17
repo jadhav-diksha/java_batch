@@ -15,8 +15,24 @@ class StackDemo {
 	st.push(54);
 	st.push(23);
 
-	 
 	System.out.println("element of stack :"+st);
+	
+	System.out.println("top of stack :"+st.peek());
+
+
+	st.pop();
+	
+	System.out.println("element of stack after pop :"+st);
+
+	st.push(898);
+	
+	System.out.println("element of stack after push :"+st);
+
+	System.out.println("Top of stack:" +st.peek());
+
+       System.out.println("search element :"+st.search(54));
+
+	
 
    }
 }

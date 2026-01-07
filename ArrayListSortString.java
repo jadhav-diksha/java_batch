@@ -23,24 +23,21 @@ class ArrayListSortString{
 
 	       System.out.println("Sorted List:"+l2);
 
-		// remove the specific element using remove()
-
-		l2.remove("saloni");
+		l2.remove("saloni");  // remove the specific element using remove()
 		System.out.println(l2);
 
-		//Add all element in l1 and l2 using addAll()
+		l1.addAll(l2); //Add all element in l1 and l2 using addAll()
 
-		l1.addAll(l2);
 		System.out.println("after addall:"+l1);
 
-		//remove all element from l2 using removeAll()
+	
+		l1.removeAll(l2); //remove all element from l2 using removeAll()
 
-		l1.removeAll(l2);
 		System.out.println("after removeall 12 element"+l1);
 
-		//check the index of specific integer
+		
+		ArrayList l3=new ArrayList();  //check the index of specific integer
 
-		ArrayList l3=new ArrayList();
 		l3.add(10);
 		l3.add(56);
 		l3.add(72);

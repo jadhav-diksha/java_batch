@@ -19,12 +19,11 @@ class StackDemo {
 	
 	System.out.println("top of stack :"+st.peek());
 
-
-	st.pop();
+        st.pop();
 	
 	System.out.println("element of stack after pop :"+st);
 
-	st.push(898);
+	st.push(89);
 	
 	System.out.println("element of stack after push :"+st);
 

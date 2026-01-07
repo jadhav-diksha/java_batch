@@ -2,42 +2,35 @@ import java.util.*;
 
 class PersonInfo {
 
-   int id;
-   String name;
-   int age;
-   String city;
+    int id;
+    String name;
+    int age;
+    String city;
 
-PersonInfo(int id,String name,int age,int city)
-{
-	this.id=id;
-	this.name=name;
-	this.age=age;
-	this.city=city;
+    PersonInfo(int id, String name, int age, String city) {
+        this.id = id;
+        this.name = name;
+        this.age = age;
+        this.city = city;
+    }
 }
-}
-
 
 public class TestPersonList {
 
-public static void main(String args[])
-{
-	
-PersonInfo p1=new PersonInfo(101,"diksha",22,"pune");
-PersonInfo p2=new PersonInfo(102,"gauri",23,"dhaund");
-//PersonInfo p3=new PersonInfo(103,"diksha",22,"pune");
+    public static void main(String args[]) {
 
-ArrayList<PersonInfo> l1=new ArrayList<PersonInfo>();
-l1.add(p1);
-l1.add(p2);
+        PersonInfo p1 = new PersonInfo(101, "Diksha", 22, "Pune");
+        PersonInfo p2 = new PersonInfo(102, "Gauri", 23, "Daund");
 
-Iterator itr=l1.iterator();
+        ArrayList<PersonInfo> l1 = new ArrayList<>();
+        l1.add(p1);
+        l1.add(p2);
 
-While(itr.hasNext())
-{
- PersonInfo p=(PersonInfo)itr.next();
+        Iterator<PersonInfo> itr = l1.iterator();
 
-System.out.println(p.id+" "+p.name+" "+p.age+" "+p.city);
-}
-
-}
+        while (itr.hasNext()) {
+            PersonInfo p = itr.next();
+            System.out.println(p.id + " " + p.name + " " + p.age + " " + p.city);
+        }
+    }
 }

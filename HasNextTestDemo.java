@@ -12,12 +12,14 @@ class HasNextTestDemo {
         }
 }
 
+
+
 //nextLine
 
 //Scanner sc=new Scanner("hello Diksha Jadhav\n your are student \n you love satara");
 		
-		//while(sc.hasNextLine()) {
-				//System.out.println(sc.nextLine());
+//while(sc.hasNextLine()) {
+//System.out.println(sc.nextLine());
 
 
 //hasNextInt
@@ -25,11 +27,11 @@ class HasNextTestDemo {
 //Scanner sc=new Scanner("my age is 22 years");
 // while(sc.hasNext()) {
 
-				//if(sc.hasNextInt())
-				//System.out.println(sc.next());
-				//else
-				//  sc.next();
-		//}
+	//if(sc.hasNextInt())
+	//System.out.println(sc.next());
+	//else
+	//  sc.next();
+	//}
 
    
 
